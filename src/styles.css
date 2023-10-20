@@ -3,6 +3,7 @@
 }
 
 body {
+  background-color: blue;
   font-family: sans-serif;
   margin: 20px;
   padding: 0;
@@ -57,7 +58,8 @@ body {
 }
 
 .square {
-  background: white;
+  background: black;
+  color: white;
   border: 1px solid #999;
   float: left;
   font-size: 24px;
@@ -69,6 +71,17 @@ body {
   padding: 0;
   text-align: center;
   width: 34px;
+}
+
+.history-li {
+  color: white;
+}
+
+.history-button {
+  margin-top: 3px;
+  border-color: cyan;
+  border-radius: 3px;
+  background-color: darkturquoise;
 }
 
 .board-row:after {
